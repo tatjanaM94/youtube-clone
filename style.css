@@ -1,0 +1,43 @@
+.nav-bar {
+    background-color: aqua;
+}
+
+.profilePic {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profilePicContainer {
+    background-color: brown;
+}
+
+.videoImage {
+    position: relative;
+    margin-bottom: 8px;
+}
+.img{
+    width: 100%;
+}
+
+.videoContainer {
+    display: grid;
+}
+
+.infoContainer {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    background-color: blueviolet;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 45px;
+}
